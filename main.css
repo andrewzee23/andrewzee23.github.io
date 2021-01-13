@@ -116,6 +116,21 @@ p, li, span, label, input, textarea {
     grid-area: right-column;
 }
 
+.dots-wrapper {
+
+}
+
+.browser-dot {
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+
+    -webkit-shadow-box: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+}
+
 @media screen and (max-width: 1200px){
     .main-container{
         width: 95%;
