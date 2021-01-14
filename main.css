@@ -168,6 +168,22 @@ p, li, span, label, input, textarea {
     padding: 10px;
 }
 
+#light-mode {
+    background-color: #fff;
+}
+
+#blue-mode {
+    background-color: #192734;
+}
+
+#green-mode {
+    background-color: #78866b;
+}
+
+#dark-mode {
+    background-color: #7E4C74;
+}
+
 #dot-1 {
     background-color: #fc6058;
 }
