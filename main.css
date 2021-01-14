@@ -110,6 +110,16 @@ p, li, span, label, input, textarea {
     border-radius: 5px 5px 0 0;
 }
 
+#navigation {
+    margin: 0%;
+    padding: 10px;
+}
+#navigation li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
 .left-column {
     grid-area: left-column;
 }
