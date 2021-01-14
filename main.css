@@ -115,30 +115,6 @@ p, li, span, label, input, textarea {
     border-radius: 5px 5px 0 0;
 }
 
-#navigation {
-    margin: 0%;
-    padding: 10px;
-}
-
-#navigation li {
-    display: inline-block;
-    margin-right: 5px;
-    margin-left: 5px;
-}
-
-#profile-pic {
-    display: block;
-    margin: 0 auto;
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-    border: 2px solid var(--borderColor);
-}
-
-#theme-options-wrapper {
-    display: flex;
-    justify-content: center;
-}
 
 .theme-dot {
     height: 30px;
@@ -174,6 +150,60 @@ p, li, span, label, input, textarea {
     padding-bottom: 50px;
 }
 
+.dots-wrapper {
+    display: flex;
+    padding: 10px;
+}
+
+.browser-dot {
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 5px;
+
+
+    -webkit-shadow-box: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+}
+
+.corner {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1.5px solid #17a2b8;
+    background-color: #fff;
+    position: absolute;
+}
+
+
+#navigation {
+    margin: 0%;
+    padding: 10px;
+}
+
+#navigation li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#profile-pic {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 2px solid var(--borderColor);
+}
+
+#theme-options-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
 #preview-shadow {
     background-color: var(--previewShadow);
     width: 300px;
@@ -188,11 +218,6 @@ p, li, span, label, input, textarea {
     background-color: var(--previewBg);
     padding: 15px;
     position: relative;
-}
-
-.dots-wrapper {
-    display: flex;
-    padding: 10px;
 }
 
 #light-mode {
@@ -227,28 +252,6 @@ p, li, span, label, input, textarea {
     font-size: 10px;
     font-style: italic;
     text-align: center;
-}
-
-.browser-dot {
-    background-color: black;
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-    margin: 5px;
-
-
-    -webkit-shadow-box: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-}
-
-.corner {
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    border: 1.5px solid #17a2b8;
-    background-color: #fff;
-    position: absolute;
 }
 
 #corner-tl {
