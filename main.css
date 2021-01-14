@@ -93,7 +93,6 @@ p, li, span, label, input, textarea {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3em 30em;
     grid-template-areas:
         'nav-wrapper nav-wrapper'
         'left-column right-column'
@@ -119,6 +118,15 @@ p, li, span, label, input, textarea {
     display: inline-block;
     margin-right: 5px;
     margin-left: 5px;
+}
+
+#profile-pic {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 2px solid var(--borderColor);
 }
 
 .left-column {
