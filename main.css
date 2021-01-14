@@ -7,7 +7,9 @@
     --mainText: black;
     --secondaryText: #4b5156;
 
-    --themeDotBorder: #24292e; 
+    --themeDotBorder: #24292e;
+
+    --previewBg: rgb(251,249,243,0.8)
 }
 
 html, body {
@@ -163,8 +165,16 @@ p, li, span, label, input, textarea {
 
 .right-column {
     grid-area: right-column;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    display: grid;
+    align-content: center;
+}
+
+#preview {
+    width: 300px;
+    border: 1.5px solid #17a2b8;
+    background-color: var(--previewBg);
+    padding: 15px;
+    position: relative;
 }
 
 .dots-wrapper {
@@ -217,6 +227,35 @@ p, li, span, label, input, textarea {
     -webkit-shadow-box: -1px 1px 3px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
     box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+}
+
+.corner {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1.5px solid #17a2b8;
+    background-color: #fff;
+    position: absolute;
+}
+
+#corner-tl {
+    top: -5px;
+    left: -5px;
+}
+
+#corner-bl {
+    bottom: -5px;
+    left: -5px;
+}
+
+#corner-tr {
+    top: -5px;
+    right: -5px;
+}
+
+#corner-br {
+    bottom: -5px;
+    right: -5px;
 }
 
 @media screen and (max-width: 1200px){
