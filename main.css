@@ -12,6 +12,8 @@
     --previewBg: rgb(251,249,243,0.8);
     --previewShadow: #f0ead6;
 
+    --buttonColor: black; 
+
 }
 
 html, body {
@@ -336,6 +338,26 @@ p, li, span, label, input, textarea {
     right: -5px;
 }
 
+#contact-form {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid var(--borderColor);
+    padding: 15px;
+    border-radius: 5px;
+    background-color: var(--mainColor);
+    margin-bottom: 50px;
+}
+
+#submit-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    background-color: var(--buttonColor);
+    border: none;
+}
 @media screen and (max-width: 1200px){
     .main-container{
         width: 95%;
