@@ -131,6 +131,11 @@ p, li, span, label, input, textarea {
     border: 2px solid var(--borderColor);
 }
 
+#theme-options-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .theme-dot {
     height: 30px;
     width: 30px;
@@ -138,13 +143,16 @@ p, li, span, label, input, textarea {
     margin: 5px;
     background-color: black;
     border: 2px solid var(--themeDotBorder);
-    
+
     -webkit-shadow-box: -1px 1px 3px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
     box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 
     cursor: pointer;
+}
 
+.theme-dot:hover {
+    border-width: 5px;
 }
 
 .left-column {
