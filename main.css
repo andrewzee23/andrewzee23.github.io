@@ -121,6 +121,18 @@ p, li, span, label, input, textarea {
     padding: 10px;
 }
 
+#dot-1 {
+    background-color: #fc6058;
+}
+
+#dot-2 {
+    background-color: #fec02f;
+}
+
+#dot-3 {
+    background-color: #2ACA3E;
+}
+
 .browser-dot {
     background-color: black;
     height: 15px;
